@@ -1,0 +1,72 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    background-image:url('https://github.com/agamgoyal19/my-first-static-web-app/assets/86164231/f6f956ea-0834-4826-90d8-eca567133df0');
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+#game-board {
+    padding: 20px;
+    text-align:center;
+    max-width: 600px;
+    width: 100%;
+    font-size:35px;
+    color:brown;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: brown;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+img {
+    max-width: 100%;
+    max-height: 300px;
+    margin-top: 20px;
+}
+
+#restart-button {
+    display: none;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    transition: background-color 0.3s ease;
+}
+
+#restart-button:hover {
+    background-color: #27ae60;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    button {
+        font-size: 14px;
+    }
+
+    #restart-button {
+        font-size: 14px;
+    }
+}
